@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Poliana Maioli Marques">
+    <meta name="Description" content="Desafio Challenge Alura ONE: Construir um decodificador de texto com JavaScript.">
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/imagens/escudo.png" type="image/x-icon">
+
+
+    <title> Challenge ONE | Decodificador </title>
+</head>
+<body>    
+    <header>
+        <img class="logo" src="./imagens/escudo.png" alt="Logo da Alura">
+        <h1>Challenge ONE | Decodificador de Texto</h1>
+    </header>
+    
+    <main>
+        <section class="input">
+            <textarea class="input-texto"  cols="41" rows="4" placeholder="Digite seu texto aqui..." autofocus></textarea>
+
+            <div>
+                <h2 class="informacao"> Apenas letras minúsculas e sem acento.</h2>
+            </div>
+     
+            <div class="botoes">                
+                <button class="btn encriptar" onclick="btnEncriptar()"> Criptografar</button>
+                <button class="btn desencriptar" onclick="btnDesencriptar()"> Descriptografar</button>
+            </div>
+        </section>
+        
+        <section class="output">
+            <div id="output-home">
+                <img src="./imagens/inspetor_home.png" alt="Inspetor Bugiganga">
+                <h3> Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar</p>               
+                
+            </div>
+            
+            <div id="output-end">
+                <textarea id="output-texto"  cols="41" rows=4"></textarea>
+                <img src="./imagens/inspetor_end.png" alt="Inspetor Bugiganga">
+                <button class="btn copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+            
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+    
+    <footer>
+       <p>Desenvolvido com <img class="heart" src="./imagens/coracao.svg" alt="Coração" title="Amor"> por Poliana Maioli Marques</p>
+       <p> &#169; Copyright 2023 </p>
+
+        <a href="https://github.com/PolianaMaioli" class="footer__link" title="Me siga no GitHub" target="_blank">
+            <img class="icone" alt="" src="./imagens/github.svg">
+        </a>
+        <a href="https://www.linkedin.com/in/poliana-maioli-marques-293a6848/" class="footer__link" title="Me siga no Linkedin" target="_blank">
+            <img class="icone" alt="" src="./imagens/linkedin.svg">            
+        </a>
+    </footer>
+</body>
+</html>

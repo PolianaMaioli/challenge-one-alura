@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    background: url(../imagens/codigo.gif);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 150%;
+}
+
+header {
+    display: flex;
+
+}
+
+.logo {
+    margin-left: 5%;
+    padding-top: 20px;
+    width:5%;
+}
+
+h1 {
+    color:#F3F5FC;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 40px 0 0 20px  ;
+}
+
+main {
+    display: flex;
+    margin-left: 5%;
+}
+
+.input{
+    display: inline-block;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.input-texto {
+    background: #F3F5FC;
+    border: none;
+    border-radius: 10px;
+    color: #0A3871;
+    margin: 90px 0;
+    font-size: 32px;
+}
+::placeholder { color: #0A3871; }
+
+.input-texto:focus {
+    outline: none;
+}
+
+.informacao {
+    display: flex;
+    margin-bottom: 20px;
+    color: white;
+    font-size:14px;
+    padding-left: 10px;
+}
+
+.informacao::before{
+    content: "⚠️";
+}
+
+.informacao:hover{
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+
+.btn {
+    background-image: linear-gradient(135deg, #000851 0%, #0a3871 50%, #1cb5e0 100%); 
+    color: #F3F5FC;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.6s;
+    background-size: 200%;
+
+}
+
+.btn:hover{
+    background-position: right;
+}
+
+.output{
+    display: inline-block;
+    width: 100%; 
+    
+}
+
+#output-home {
+    border: 1px solid black;
+    background: white;
+    text-align: center;
+    width: 340px;
+    height: 450px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin: 10px auto;
+
+}
+
+#output-home h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#output-home p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+}
+
+#output-end{
+    border: 1px solid rgb(236, 234, 234);
+    background: white;
+    text-align: center;
+    width: 340px;
+    height: 450px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin: 10px auto;
+    display: none;
+}
+
+#output-texto{
+    border: none;
+}
+
+.copiar {   
+    margin-top: 5px; 
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #D8DFE8;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #495057;
+}
+
+.heart{
+    margin: 0 8px;
+    animation: pulsar 1s infinite alternate; /*chamando a animação criada lá em baixo. vai ter duração de 1s, em loop, quando chegar no fim voltar para o 0.  */
+}
+
+.footer__link{
+    text-decoration: none; /*tira o hinderline do link*/
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.footer__link:hover{
+    opacity: .6;
+}
+
+.footer__link:focus{
+    outline: none;
+    background-color: #4d4d4d;
+    border-radius: 5px;
+}
+
+@keyframes pulsar{ /*criando a animação para o coração*/
+    0%{
+        transform: scale(.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+   
