@@ -74,12 +74,14 @@ function copiarTexto() {
     document.execCommand("copy");
     document.querySelector(".copiar").style.background = "#3be493";
     document.querySelector(".copiar").innerHTML = "Copiado ✔";
+    setTimeout(() => {
+        document.querySelector(".copiar").style.background = "#0a3871";
+        document.querySelector(".copiar").innerHTML = "Copiar";
+    }, 2500); //2500 equivale a 2,5 segundos
+        
     
     // // alert("O texto é: " + textoCopiado.value);
 
-    
- 
-    // https://pt.stackoverflow.com/questions/572328/bom-dia-existe-alguma-propriedade-para-alterar-o-texto-quando-o-mouse-passar-po
     
 }
 
