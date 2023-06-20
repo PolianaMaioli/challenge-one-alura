@@ -10,13 +10,15 @@
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-:small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação)
+<!-- :small_blue_diamond: [Layout da Aplicação](#) -->
 
 :small_blue_diamond: [Requisitos](#🔨-requisitos)
 
 :small_blue_diamond: [Requisito Extra](#🛠️-requisito-extra)
 
 :small_blue_diamond: [Tecnologias Utilizadas](#💻-tecnologias-utilizadas)
+
+:small_blue_diamond: [Badge Alura Challenge](#🥇-badge-alura-challenge)
 
 :small_blue_diamond:[Autora](#octocat-autora)
 
@@ -62,6 +64,12 @@ O resultado deve ser exibido na tela.
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
 </p>
 
+# 🥇 Badge Alura Challenge
+<p align="center">
+<img src="./imagens/badge.png" align="center" alt="Badge Alura Challenge" width="300" title="Badge concedida por completar o challenge"/>
+</p>
+  
+
 # :octocat: Autora
 | [<img src="https://avatars.githubusercontent.com/u/100736006?s=400&v=4" width=115><br><sub>Poliana Maioli Marques</sub>](https://github.com/PolianaMaioli/) |
 | :---: | 
@@ -69,6 +77,6 @@ O resultado deve ser exibido na tela.
 
 # Licença 
 
-The [MIT License]() (MIT)
+<!-- The [MIT License]() (MIT) -->
 
 Copyright :copyright: 2023 - Decodificador de Textos
